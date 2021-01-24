@@ -1,0 +1,28 @@
+{
+    "name": "twitch-prime-autorenew",
+    "version": "0.0.1",
+    "description": "Twitch Prime Autorenew is a browser extension allowing user to renew twitch prime subscription with one click.",
+    "scripts": {
+        "start": "webextension-toolbox dev chrome",
+        "build": "npm run -s build:chrome && npm run -s build:edge && npm run -s build:firefox",
+        "build:chrome": "webextension-toolbox build chrome",
+        "build:edge": "webextension-toolbox build edge",
+        "build:firefox": "webextension-toolbox build firefox"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gritchou/twitch-prime-autorenew.git"
+    },
+    "author": "Jean-François Grand",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gritchou/twitch-prime-autorenew/issues"
+    },
+    "homepage": "https://github.com/gritchou/twitch-prime-autorenew#readme",
+    "dependencies": {
+        "webextension-toolbox": "^3.0.0"
+    },
+    "devDependencies": {
+        "web-ext-types": "^3.2.1"
+    }
+}

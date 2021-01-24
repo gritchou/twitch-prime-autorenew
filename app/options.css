@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+
+section p { color: #666; }
+
+.input-label {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 3px 5px;
+	border: 2px solid #dedede;
+	border-radius: 6px;
+}
+
+.input-label input {
+	flex: 1;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1;
+	outline: 0;
+	border: 0;
+}

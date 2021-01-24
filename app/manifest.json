@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Twitch Prime Autorenew",
+    "version": "0.0.1",
+    "description": "Twitch Prime Autorenew is a browser extension allowing user to renew twitch prime subscription with one click.",
+    "homepage_url": "https://github.com/gritchou/twitch-prime-autorenew.git",
+    "icons": {
+        "128": "icons/twitch.png"
+    },
+    "browser_action": {
+        "default_title": "",
+        "128": "icons/twitch.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "options_ui": {
+        "page": "options.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab"
+    ]
+}
